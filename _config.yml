@@ -1,8 +1,8 @@
 theme: jekyll-theme-primer
 
-site: louino.fr
-url: https://louino.fr
-title: louino
+site: nunosint.fr
+url: https://nunosint.fr
+title: nunosint
 
 collections:
   pages:
