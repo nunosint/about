@@ -2,7 +2,7 @@ theme: jekyll-theme-primer
 
 site: nunosint.fr
 url: https://nunosint.fr
-title: Bienvenue | nunosint.fr
+title: Bienvenue
 
 collections:
   pages:
