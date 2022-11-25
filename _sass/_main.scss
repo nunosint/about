@@ -185,6 +185,15 @@ nav ul {
 
 }
 
+@media (max-width: 560px) {
+	iframe {
+		overflow:hidden;
+		padding-bottom:56.25%;
+		position:relative;
+		height:0;
+	}
+}
+
 section {
 	flex-basis:0;
 	flex-grow:999;
