@@ -30,17 +30,19 @@ Pensez à accepter les connexions en root sur votre PVE. [Aide](https://cloriou.
 
 Lancer votre gestionnaire et connectez-vous :
 
-[![Exemple](img/tuto-proxmox-1.jpg)]()
+[![Exemple](../_posts/img/tuto-proxmox-1.jpg)]()
 
-# Se rendre dans le répertoire en question
+# 3 - Se rendre dans le répertoire en question
 
 Le répertoire où sont stocker les ISO sur proxmox est :
 
 > /var/lib/vz/template/iso
 
-# Fin du café
+# 4 - Fin du café
 
 Et voilà ! Vous avez toute vos ISO déposer depuis votre panel.
 Vous pouvez bien évidement déposé vos ISO depuis votre gestionnaire et il seront lisible dans votre panel.
 
 _Ce tuto peux être obselète à tout moment, je le metterait à jour si il le faut._
+
+_Source : https://www.virtualizationhowto.com/2022/09/proxmox-create-iso-storage-location-disk-space-error/_
