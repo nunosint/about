@@ -1,7 +1,7 @@
 theme: jekyll-theme-primer
 
-site: nunosint.fr
-url: https://nunosint.fr
+site: nunosint.github.io
+url: https://nunosint.github.io/about/
 title: Bienvenue
 
 collections:
