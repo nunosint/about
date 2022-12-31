@@ -16,8 +16,8 @@ Afin de faciliter l'accès au ISO sur notre machine, il est plus intéressant d'
 
 
 Je recommande :  
-* [WinSCP](https://winscp.net/) (windows seulement)  
-* [Fizella](https://filezilla-project.org/) (compatible avec MacOS et Linux)
+* [WinSCP](https://winscp.net/) (windows seulement, simple et rapide, open source)  
+* [Filezilla](https://filezilla-project.org/) (compatible avec MacOS et Linux, mais l'interface est moins intuitive, open source)
 
 # 2 - Se connecter à notre serveur
 
@@ -34,6 +34,8 @@ Pensez à accepter les connexions en root sur votre PVE. [Aide](https://cloriou.
 Lancer votre gestionnaire et connectez-vous :
 
 [![Exemple](https://cdn.discordapp.com/attachments/562313609774891008/1046566651996418130/index.jpg)]()
+
+/!\ verifier que le protocole est bien definie sur ```SFTP```
 
 # 3 - Se rendre dans le répertoire en question
 
