@@ -10,7 +10,7 @@ Ici, je dépose des tutos (en [markdown](https://fr.wikipedia.org/wiki/Markdown)
 
 #### Mon [GitHub](https://github.com/nunosint) : 
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api?username=nunosint&count_private=true&show_icons=true)]()
+[![ReadMe Card](https://github-readme-stats-sigma-five.vercel.app/api?username=nunosint&count_private=true&show_icons=true)]()
 
 **Contact :**
 
