@@ -10,6 +10,8 @@ Vous souhaitez accéder au ISO stocker sur votre PROXMOX ?
 
 Facile, prenez un café et allons-si !
 
+```Niveau : 🟢🟢⚪⚪⚪```
+
 # 1 - Ouvrir un gestionnaire FTP / SFTP
 
 Afin de faciliter l'accès au ISO sur notre machine, il est plus intéressant d'y voir plus clair via un client de fichier graphique.
