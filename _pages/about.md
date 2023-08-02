@@ -6,7 +6,7 @@ title: About
 # Hello World !
 
 Bienvenue sur mon site !
-Ici, je dépose des tutos (en [markdown](https://fr.wikipedia.org/wiki/Markdown)) que je fais.
+Ici, je dépose des tuto (en [markdown](https://fr.wikipedia.org/wiki/Markdown)) que je fais.
 
 #### Mon [GitHub](https://github.com/nunosint) : 
 
