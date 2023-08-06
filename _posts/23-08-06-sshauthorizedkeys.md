@@ -17,7 +17,8 @@ Facile, prenez un café et allons-si !
 
 Pour pouvoir accéder à votre serveur via le protocole SSH, il faut avoir SSH Client sur votre ordinateur.
 
-Vérifiez si vous avez SSH sur votre ordinateur dans un terminal avec la commande > "SSH"<br>
+Vérifiez si vous avez SSH sur votre ordinateur dans un terminal avec la commande > "SSH".
+
 Si SSH est installé vous devriez avoir une réponse > "usage: ssh...", sinon, il faudra l'installer :
 
 Allez dans : 
@@ -58,29 +59,39 @@ Tapez la commande "ssh-keygen", elle répondra :
 * Generating public/private rsa key pair.
 * Enter file in which to save the key (C:\Users\ *votre nom d'utilisateur* /.ssh/id_rsa):
   
-Écrivez le nom de votre serveur ou le service auquel vous vous connectez (proxmox, Omv, ...) suivi d'un "_rsa".<br>
+Écrivez le nom de votre serveur ou le service auquel vous vous connectez (proxmox, Omv, ...) suivi d'un "_rsa".
+
 On vous demandera une "passphrase", pas besoin d'en mettre honnêtement, faite deux fois entré.
 
 *ps: pour avoir accès aux extensions de fichier (png, .mp4, .mp3, etc..), allez dans "Afficher", puis "Afficher", et cliquer sur Extensions de noms de fichiers*
 
 # 3 - Configurer le fichier config
 
-Une fois que vous avez généré votre clé privée et public, vous devenez la rentrée dans le fichier de configuration SSH.<br>
-Ouvrez le fichier "config" créé précédemment avec votre éditeur de texte.<br>
+Une fois que vous avez généré votre clé privée et public, vous devenez la rentrée dans le fichier de configuration SSH.
+
+Ouvrez le fichier "config" créé précédemment avec votre éditeur de texte.
+
 Rentrez cette configuration et modifiez les éléments selon votre cas, sans les guillemets ;
 
-Host "nom de votre serveur/service"<br>
+Host "nom de votre serveur/service"
+
 	Hostname "ip de votre serveur"<br>
+
 	IdentityFile ~/.ssh/"nom de votre serveur/service"_rsa<br>
+
 	User "utilisateur que vous utilisez pour vous connectez en SSH"
+
 
 # 4 - Appliquer votre clé public dans votre serveur 
 
 Maintenant que vous avez configuré votre ordinateur pour l'authentification sans nom d'utilisateur et mot de passe, il faut l'appliquer sur votre serveur.
 
-Pour ce faire connectez vous sur votre serveur.<br>
-Allez dans le répertoire de votre utilisateur via la commande "cd ~/".<br>
-Essayer "cd .ssh", si ça ne fonctionne pas c'est qu'il faut créer un dossier .ssh.<br>
+Pour ce faire connectez vous sur votre serveur.
+
+Allez dans le répertoire de votre utilisateur via la commande "cd ~/".
+
+Essayer "cd .ssh", si ça ne fonctionne pas c'est qu'il faut créer un dossier .ssh.
+
 Tapez "mkdir .ssh", puis, refaites "cd .ssh".
 
 Une fois dans le dossier faite la commande "nano authorized_keys".
@@ -93,9 +104,13 @@ Une fois cela fait réactualiser le service SSH sur votre serveur via la command
 
 # 5 - Fin du café
 
-Et voilà ! Vous pouvez vous connecter via SSH sur votre serveur sans taper de nom d'utilisateur ni de mot de passe.<br>
-Notez que c'est purement local et seul votre ordinateur aura accès de cette manière à votre serveur.<br>
-Pour appliquer cette méthode partout, refaites le tuto sur chaque ordinateur que vous avez besoin. N'oubliez pas de remplir le fichier "authorized_keys" des nouvelles clées par un retour à la ligne.
+Et voilà ! Vous pouvez vous connecter via SSH sur votre serveur sans taper de nom d'utilisateur ni de mot de passe.
+
+Notez que c'est purement local et seul votre ordinateur aura accès de cette manière à votre serveur.
+
+Pour appliquer cette méthode partout, refaites le tuto sur chaque ordinateur que vous avez besoin. 
+
+N'oubliez pas de remplir le fichier "authorized_keys" des nouvelles clées par un retour à la ligne.
 
 _Ce tuto peux être obselète à tout moment, je le mettrait à jour si il le faut._
 
