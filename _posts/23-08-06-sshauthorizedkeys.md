@@ -10,7 +10,7 @@ Vous souhaitez vous connecter facilement en SSH sans taper à chaque fois votre 
 
 Facile, prenez un café et allons-si !
 
-```Niveau : 🟢🟢⚪⚪⚪```\newline
+```Niveau : 🟢🟢⚪⚪⚪```<br>
 ```OS expliquer : Windows 11 / debian```
 
 # 1 - Vérifier si SSH est installer sur votre ordinateur
